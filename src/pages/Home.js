@@ -60,12 +60,13 @@ export default function Home() {
                 <img src={Logo} alt="logo" className="h-32 w-32" />
                 <h1
                   className="flex items-center justify-center text-white
-              text-center px-2 text-3xl font-extrabold font-poppins lg:text-5xl"
+              text-center  text-3xl font-extrabold font-poppins lg:text-5xl"
                 >
                   The BREED SAVVY
                 </h1>
                 </div>
-                <p className="my-5 text-white">
+                <h2 className="text-white my-5 font-bold">Your Guide to Dog Breeds</h2>
+                {/* <p className="my-5 text-white">
                   This application is powered by{" "}
                   <a
                     href="https://thedogapi.com"
@@ -73,7 +74,7 @@ export default function Home() {
                   >
                     The Dog Api
                   </a>
-                </p>
+                </p> */}
 
                 <form
                   onSubmit={handleSubmit}
